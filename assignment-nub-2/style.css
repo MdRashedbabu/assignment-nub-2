@@ -82,7 +82,6 @@ line-height: normal;
     border-radius: 8px;
     background: #FFF;
     padding:15px;
-    padding-left: -30px;
 }
 button{
     border-radius: 8px;
@@ -95,4 +94,88 @@ button{
     line-height: normal;
     padding-left: 15px;
     padding-right: 15px;
+}
+.v-section-2{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+}
+ .v-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 335px;
+
+ }
+ .v-dis{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
+ .v-btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+ }
+ .section3{
+    width: 1170px;      
+    margin: 50px auto;
+   
+}
+.place-img{
+    max-width: 100%;
+    margin-top: 50px;
+}
+.sec-3-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.sec-3-dis{
+    width: 643px;
+    margin: 0px auto;
+    max-width: 100%;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.r-p-1{
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.place-img-culamn1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.place-img-culamn2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:0px;
 }
