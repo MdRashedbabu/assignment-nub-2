@@ -24,12 +24,12 @@ nav li a{
     line-height: normal;
 }
 .nav-title{
-color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+   color: #131318;
+   font-family: Mulish;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
 }
 .nav-title1{
     color: #FF5400;
@@ -48,18 +48,16 @@ line-height: normal;
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid skyblue;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 .sec-1-title{
-    color: #FFF;
+    color:#FFF;
     font-family: Mulish;
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    text-align: center;
-    
+    text-align: center; 
 }
 .sec-1-des{
     color: #FFF;
@@ -68,19 +66,17 @@ line-height: normal;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    
+    line-height: 26px; /* 162.5% */  
 }
 .input{
     display: flex;
     justify-content: center;
     margin: 30px;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 .input{
     border-radius: 8px;
-    background: #FFF;
+    background:#FFF;
     padding:15px;
 }
 button{
@@ -111,15 +107,14 @@ button{
     font-weight: 800;
     line-height: normal;
     width: 335px;
-
  }
  .v-dis{
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
  }
  .v-btn{
     width: 174px;
@@ -144,8 +139,7 @@ line-height: 26px; /* 162.5% */
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
-    
+    line-height: normal; 
 }
 .sec-3-dis{
     width: 643px;
@@ -173,9 +167,159 @@ line-height: 26px; /* 162.5% */
 .place-img-culamn1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+    margin-top: 0px;
 }
 .place-img-culamn2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top:0px;
+    gap: 15px;
 }
+
+
+
+
+.section4{
+    width: 1170px;      
+    margin: 50px auto;
+
+}
+.sec-4-blog1{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.sec-4-box1{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+   
+    
+    
+}
+.sec-4-box2{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+  
+    
+}
+.sec-4-box3{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px;
+    margin-top: 50px;
+    margin: 50px auto;
+    
+}
+
+.section5{
+    width: 1170px;      
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-5-box1{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+}
+.sec-5-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sec-5-dis{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+.bt{
+    padding: 30px;
+}
+
+.btnn{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+footer{
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+}
+
+
+
+.footer-title{
+    text-align: center;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    
+}
+.footer-dis{
+    margin: 0 auto;
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    
+}
+.socal-icon{
+    text-align: center;
+    margin: 30px auto;
+}
+.footer-end{
+    margin: 50px auto;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+
+}
+
+
+
+
+
